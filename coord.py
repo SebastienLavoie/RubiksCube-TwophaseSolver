@@ -3,13 +3,13 @@
 from os import path
 import array as ar
 
-import cubie as cb
-import enums
-import moves as mv
-import pruning as pr
-import symmetries as sy
-from defs import N_U_EDGES_PHASE2, N_PERM_4, N_CHOOSE_8_4, N_FLIP, N_TWIST, N_UD_EDGES, N_MOVE
-from enums import Edge as Ed
+import marcs.TwoPhaseSolver.cubie as cb
+import marcs.TwoPhaseSolver.enums as enums
+import marcs.TwoPhaseSolver.moves as mv
+import marcs.TwoPhaseSolver.pruning as pr
+import marcs.TwoPhaseSolver.symmetries as sy
+from marcs.TwoPhaseSolver.defs import N_U_EDGES_PHASE2, N_PERM_4, N_CHOOSE_8_4, N_FLIP, N_TWIST, N_UD_EDGES, N_MOVE
+from marcs.TwoPhaseSolver.enums import Edge as Ed
 
 SOLVED = 0  # 0 is index of solved state (except for u_edges coordinate)
 u_edges_plus_d_edges_to_ud_edges = None  # global variable

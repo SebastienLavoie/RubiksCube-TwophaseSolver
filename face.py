@@ -1,8 +1,8 @@
 # ####### The cube on the facelet level is described by positions of the colored stickers. #############################
 
-from defs import cornerFacelet, edgeFacelet, cornerColor, edgeColor
-from enums import Color, Corner, Edge
-from cubie import CubieCube
+from marcs.TwoPhaseSolver.defs import cornerFacelet, edgeFacelet, cornerColor, edgeColor
+from marcs.TwoPhaseSolver.enums import Color, Corner, Edge
+from marcs.TwoPhaseSolver.cubie import CubieCube
 
 
 class FaceCube:

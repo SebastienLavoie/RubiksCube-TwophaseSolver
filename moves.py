@@ -2,9 +2,9 @@
 
 from os import path
 import array as ar
-import cubie as cb
-import enums
-from defs import N_TWIST, N_FLIP, N_SLICE_SORTED, N_CORNERS, N_UD_EDGES, N_MOVE
+import marcs.TwoPhaseSolver.cubie as cb
+import marcs.TwoPhaseSolver.enums
+from marcs.TwoPhaseSolver.defs import N_TWIST, N_FLIP, N_SLICE_SORTED, N_CORNERS, N_UD_EDGES, N_MOVE
 
 a = cb.CubieCube()
 # ######################################### Move table for the twists of the corners. ##################################

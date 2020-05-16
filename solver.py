@@ -1,12 +1,12 @@
 # ################### The SolverThread class solves implements the two phase algorithm #################################
-import face
+import marcs.TwoPhaseSolver.face as face
 import threading as thr
-import cubie
-import symmetries as sy
-import coord
-import enums as en
-import moves as mv
-import pruning as pr
+import marcs.TwoPhaseSolver.cubie as cubie
+import marcs.TwoPhaseSolver.symmetries as sy
+import marcs.TwoPhaseSolver.coord as coord
+import marcs.TwoPhaseSolver.enums as en
+import marcs.TwoPhaseSolver.moves as mv
+import marcs.TwoPhaseSolver.pruning as pr
 import time
 
 
